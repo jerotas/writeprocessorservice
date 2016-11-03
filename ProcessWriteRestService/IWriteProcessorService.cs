@@ -8,16 +8,20 @@ namespace ProcessWriteRestService {
     public interface IWriteProcessorService
     {
         [OperationContract]
-        [WebGet(UriTemplate = "/Hello")]
+        [WebGet]
         string Hello();
 
         [OperationContract]
-        [WebGet(UriTemplate = "/GetData/{value}")]
+        [WebGet]
         string GetData(string value);
 
         [OperationContract]
-        [WebGet(UriTemplate = "/GetDataUsingContract/{value}")]
+        [WebGet]
         CompositeType GetDataUsingDataContract(CompositeType composite);
+
+        [OperationContract]
+        [WebInvoke] // post
+        void PostStuff();
     }
 
 

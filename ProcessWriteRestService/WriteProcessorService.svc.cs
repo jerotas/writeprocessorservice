@@ -21,5 +21,10 @@ namespace ProcessWriteRestService {
             }
             return composite;
         }
+
+        public void PostStuff()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
