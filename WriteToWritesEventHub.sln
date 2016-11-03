@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessWriteRestService", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteToWritesEventHub", "WriteToWritesEventHub\WriteToWritesEventHub.csproj", "{44E08CF3-A02D-48E1-B4D7-D21483225AA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRestService", "TestRestService\TestRestService.csproj", "{8487D23F-95A0-4357-869F-EEAE007E53C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{44E08CF3-A02D-48E1-B4D7-D21483225AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E08CF3-A02D-48E1-B4D7-D21483225AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E08CF3-A02D-48E1-B4D7-D21483225AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8487D23F-95A0-4357-869F-EEAE007E53C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8487D23F-95A0-4357-869F-EEAE007E53C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8487D23F-95A0-4357-869F-EEAE007E53C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8487D23F-95A0-4357-869F-EEAE007E53C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

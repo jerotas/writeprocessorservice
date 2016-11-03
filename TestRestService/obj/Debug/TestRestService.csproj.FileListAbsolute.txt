@@ -1,0 +1,6 @@
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\bin\Debug\TestRestService.exe.config
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\bin\Debug\TestRestService.exe
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\bin\Debug\TestRestService.pdb
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\obj\Debug\TestRestService.csprojResolveAssemblyReference.cache
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\obj\Debug\TestRestService.exe
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\obj\Debug\TestRestService.pdb

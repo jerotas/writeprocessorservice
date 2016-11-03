@@ -8,11 +8,11 @@ namespace ProcessWriteRestService {
     public interface IWriteProcessorService {
 
         [OperationContract]
-        [WebGet]
+        [WebGet(UriTemplate = "/GetData/{value}")]
         string GetData(int value);
 
         [OperationContract]
-        [WebGet(UriTemplate = "/GetData/{value}")]
+        [WebGet(UriTemplate = "/GetDataUsingContract/{value}")]
         CompositeType GetDataUsingDataContract(CompositeType composite);
     }
 
