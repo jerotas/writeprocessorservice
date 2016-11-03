@@ -6,7 +6,7 @@ namespace TestRestService {
     public class Program {
         // ReSharper disable once UnusedParameter.Local
         private static void Main(string[] args) {
-            var result = RetrieveStringFromRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/GetData?value=2");
+            var result = RetrieveStringFromRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/2");
             Console.WriteLine("Result: " + result);
         }
 
