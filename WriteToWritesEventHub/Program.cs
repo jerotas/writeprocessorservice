@@ -14,7 +14,7 @@ namespace WriteToWritesEventHub {
         private static void Main(string[] args) {
             SendMessagesToWriteEventHub();
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
         private static void SendMessagesToWriteEventHub() {
