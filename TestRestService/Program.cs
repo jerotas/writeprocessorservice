@@ -1,14 +1,34 @@
 ﻿using System;
 using System.IO;
 using System.Net;
+using Newtonsoft.Json;
+using SharedModels;
 
 namespace TestRestService {
     public class Program {
         // ReSharper disable once UnusedParameter.Local
         private static void Main(string[] args) {
-            var result = TestGetFromRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/GetData/2");
-            Console.WriteLine("[Get] Result: " + result);
+            var getResult = TestGetFromRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/GetData/2");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("[Get] Result: " + getResult);
+            Console.ResetColor();
+            Console.WriteLine();
 
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            var postResult = TestPostWithRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/PostMemberChange", 
+                new Member {
+                    FirstName = "First",
+                    MiddleInitial = "M",
+                    LastName = "Last",
+                    Gender = "F",
+                    GroupSourceKey = 123,
+                    MemberSourceKey = 456
+                });
+
+            Console.WriteLine("[Post] Result: " + postResult);
+            Console.ResetColor();
+
+            Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Done, press any key to exit.");
             Console.ResetColor();
@@ -16,8 +36,19 @@ namespace TestRestService {
             Console.ReadKey();
         }
 
-        private static string TestGetFromRestService(string restUrlWithParams) {
-            var webrequest = (HttpWebRequest)WebRequest.Create(restUrlWithParams);
+        private static string TestPostWithRestService(string restPostUrl, object dataToPost) {
+            var jsonData = JsonConvert.SerializeObject(dataToPost);
+
+            //POST JSON REQUEST TO API
+            using (var client = new WebClient()) {
+                client.Headers[HttpRequestHeader.ContentType] = "application/json";
+                var result = client.UploadString(restPostUrl, "POST", jsonData);
+                return "Post Success: " + result;
+            }
+        }
+
+        private static string TestGetFromRestService(string restGetUrlWithParams) {
+            var webrequest = (HttpWebRequest)WebRequest.Create(restGetUrlWithParams);
 
             using (var response = webrequest.GetResponse()) {
                 // ReSharper disable once AssignNullToNotNullAttribute
@@ -25,11 +56,8 @@ namespace TestRestService {
                     var result = reader.ReadToEnd();
 
                     return result;
-                    //var deser = JsonConvert.DeserializeObject<T>(result);
-                    //return deser;
                 }
             }
         }
-
     }
 }

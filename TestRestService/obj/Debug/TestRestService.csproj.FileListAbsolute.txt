@@ -4,3 +4,7 @@ C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\bin\Debug\TestRestSe
 C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\obj\Debug\TestRestService.csprojResolveAssemblyReference.cache
 C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\obj\Debug\TestRestService.exe
 C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\obj\Debug\TestRestService.pdb
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\bin\Debug\SharedModels.dll
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\bin\Debug\SharedModels.pdb
+C:\Users\us47511\Desktop\Git\WriteProcessor\TestRestService\bin\Debug\Newtonsoft.Json.xml
