@@ -16,5 +16,5 @@ namespace WriteProcessorService {
         public string PostStuff(Member memberChangeEvent) {
             return $"Posted First Name: { memberChangeEvent.FirstName }";
         }
-    }
+    } 
 }
