@@ -15,7 +15,6 @@ namespace WriteProcessorService {
         string GetData(string value);
 
         [OperationContract]
-        [WebInvoke(UriTemplate = "PostStuff/{memberChangeEvent}")]
         string PostStuff(Member memberChangeEvent);
     }
 }
