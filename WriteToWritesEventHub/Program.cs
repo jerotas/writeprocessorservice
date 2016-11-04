@@ -24,8 +24,8 @@ namespace WriteToWritesEventHub {
 
             try {
                 var memberMessage = new Member {
-                    MemberSourceKey = 311402,
-                    FirstName = "FName00015255",
+                    MemberSourceKey = 360753,
+                    FirstName = "FName00016255",
                     MiddleInitial = "I",
                     LastName = "Laster",
                     Gender = "F",
@@ -35,8 +35,8 @@ namespace WriteToWritesEventHub {
                 SendMemberChangeToEventHub(eventHubClient, memberMessage);
 
                 var memberMessage2 = new Member {
-                    MemberSourceKey = 360753,
-                    FirstName = "FName00016255",
+                    MemberSourceKey = 57388450,
+                    FirstName = "FName00018255",
                     MiddleInitial = "S",
                     LastName = "Lastest",
                     Gender = "F",
@@ -51,6 +51,7 @@ namespace WriteToWritesEventHub {
                 Console.ResetColor();
             }
 
+            Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Done, press any key to exit.");
             Console.ResetColor();
