@@ -6,8 +6,8 @@ namespace TestRestService {
     public class Program {
         // ReSharper disable once UnusedParameter.Local
         private static void Main(string[] args) {
-            var result = RetrieveStringFromRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/GetData/2");
-            Console.WriteLine("Result: " + result);
+            var result = TestGetFromRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/GetData/2");
+            Console.WriteLine("[Get] Result: " + result);
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Done, press any key to exit.");
@@ -16,7 +16,7 @@ namespace TestRestService {
             Console.ReadKey();
         }
 
-        private static string RetrieveStringFromRestService(string restUrlWithParams) {
+        private static string TestGetFromRestService(string restUrlWithParams) {
             var webrequest = (HttpWebRequest)WebRequest.Create(restUrlWithParams);
 
             using (var response = webrequest.GetResponse()) {

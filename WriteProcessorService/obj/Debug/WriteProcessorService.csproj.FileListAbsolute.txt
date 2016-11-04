@@ -4,3 +4,5 @@ C:\Users\us47511\Desktop\Git\WriteProcessor\WriteProcessorService\bin\WriteProce
 C:\Users\us47511\Desktop\Git\WriteProcessor\WriteProcessorService\obj\Debug\WriteProcessorService.csprojResolveAssemblyReference.cache
 C:\Users\us47511\Desktop\Git\WriteProcessor\WriteProcessorService\obj\Debug\WriteProcessorService.dll
 C:\Users\us47511\Desktop\Git\WriteProcessor\WriteProcessorService\obj\Debug\WriteProcessorService.pdb
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteProcessorService\bin\SharedModels.dll
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteProcessorService\bin\SharedModels.pdb

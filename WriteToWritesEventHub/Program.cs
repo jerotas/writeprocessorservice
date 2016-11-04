@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Text;
 using Microsoft.ServiceBus.Messaging;
 using Newtonsoft.Json;
-using WriteToWritesEventHub.Models;
+using SharedModels;
 
 namespace WriteToWritesEventHub {
     public class Program {

@@ -1,4 +1,5 @@
 ﻿using System;
+using SharedModels;
 
 namespace WriteProcessorService {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "WriteProcessorService" in code, svc and config file together.
@@ -12,8 +13,8 @@ namespace WriteProcessorService {
             return $"You entered: {value}";
         }
 
-        public string PostStuff(string s) {
-            return $"Posted: {s}";
+        public string PostStuff(Member memberChangeEvent) {
+            return $"Posted First Name: { memberChangeEvent.FirstName }";
         }
     }
 }

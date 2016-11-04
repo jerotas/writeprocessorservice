@@ -18,3 +18,5 @@ C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\Newt
 C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\obj\Debug\WriteToWritesEventHub.csprojResolveAssemblyReference.cache
 C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\obj\Debug\WriteToWritesEventHub.exe
 C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\obj\Debug\WriteToWritesEventHub.pdb
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\SharedModels.dll
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\SharedModels.pdb
