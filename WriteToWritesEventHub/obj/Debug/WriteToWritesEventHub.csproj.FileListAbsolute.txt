@@ -8,3 +8,13 @@ C:\Users\us47511\Desktop\Git\TheWriteStuff\WriteToWritesEventHub\obj\Debug\Write
 C:\Users\us47511\Desktop\Git\TheWriteStuff\WriteToWritesEventHub\obj\Debug\WriteToWritesEventHub.pdb
 C:\Users\us47511\Desktop\Git\TheWriteStuff\WriteToWritesEventHub\bin\Debug\Newtonsoft.Json.dll
 C:\Users\us47511\Desktop\Git\TheWriteStuff\WriteToWritesEventHub\bin\Debug\Newtonsoft.Json.xml
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\WriteToWritesEventHub.exe.config
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\WriteToWritesEventHub.exe
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\WriteToWritesEventHub.pdb
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\Microsoft.ServiceBus.dll
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\Newtonsoft.Json.dll
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\Microsoft.ServiceBus.xml
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\bin\Debug\Newtonsoft.Json.xml
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\obj\Debug\WriteToWritesEventHub.csprojResolveAssemblyReference.cache
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\obj\Debug\WriteToWritesEventHub.exe
+C:\Users\us47511\Desktop\Git\WriteProcessor\WriteToWritesEventHub\obj\Debug\WriteToWritesEventHub.pdb

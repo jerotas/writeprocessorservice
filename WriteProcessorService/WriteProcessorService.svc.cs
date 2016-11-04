@@ -12,9 +12,8 @@ namespace WriteProcessorService {
             return $"You entered: {value}";
         }
 
-        public void PostStuff(string s) {
-            throw new NotImplementedException();
+        public string PostStuff(string s) {
+            return $"Posted: {s}";
         }
-
     }
 }

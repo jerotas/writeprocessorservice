@@ -16,7 +16,7 @@ namespace WriteProcessorService {
 
         [OperationContract]
         [WebInvoke(UriTemplate = "PostStuff/{s}")]
-        void PostStuff(string s);
+        string PostStuff(string s);
     }
 
 
