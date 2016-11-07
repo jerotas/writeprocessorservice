@@ -1,0 +1,14 @@
+using System;
+using System.Net;
+
+public static void Run(string myEventHubMessage, TraceWriter log)
+{
+    var restPostUrl = "http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/PostMemberChange";
+
+    // post the Json directly to the WriteProcessorService
+    using (var client = new WebClient()) {
+        client.Headers[HttpRequestHeader.ContentType] = "application/json";
+        var result = client.UploadString(restPostUrl, "POST", myEventHubMessage);
+        log.Info($"C# Event Hub trigger function processed a message: {result}"); 
+    }
+}
