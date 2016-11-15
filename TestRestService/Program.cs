@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.IO;
 using System.Net;
 using Newtonsoft.Json;
@@ -6,16 +7,18 @@ using SharedModels;
 
 namespace TestRestService {
     public class Program {
+        private static readonly string RestServiceUrl = ConfigurationManager.AppSettings["RestServiceURL"];
+
         // ReSharper disable once UnusedParameter.Local
         private static void Main(string[] args) {
-            var getResult = TestGetFromRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/GetData/2");
+            var getResult = TestGetFromRestService($"{RestServiceUrl}/WriteProcessorService.svc/GetData/2");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("[Get] Result: " + getResult);
             Console.ResetColor();
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            var postResult = TestPostWithRestService("http://writeprocessorservice.azurewebsites.net/WriteProcessorService.svc/PostMemberChange", 
+            var postResult = TestPostWithRestService($"{RestServiceUrl}/WriteProcessorService.svc/PostMemberChange", 
                 new Member {
                     FirstName = "First",
                     MiddleInitial = "M",

@@ -1,0 +1,4 @@
+C:\Users\us47511\Desktop\Git\WriteProcessor\SharedModels\bin\Release\SharedModels.dll
+C:\Users\us47511\Desktop\Git\WriteProcessor\SharedModels\bin\Release\SharedModels.pdb
+C:\Users\us47511\Desktop\Git\WriteProcessor\SharedModels\obj\Release\SharedModels.dll
+C:\Users\us47511\Desktop\Git\WriteProcessor\SharedModels\obj\Release\SharedModels.pdb
