@@ -15,6 +15,7 @@ namespace WriteProcessorService {
         string GetData(string value);
 
         [OperationContract]
+        [WebInvoke]
         string PostMemberChange(Member memberChangeEvent);
     }
 }
